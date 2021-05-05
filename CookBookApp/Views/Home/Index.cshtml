@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the CookBook App</h1>
+    <br />
+    <p style="color:darkred">Enjoy all the recipes that are on the CookBookApp and make sure to add your own ones too!</p>
+    <a class="btn btn-info" asp-area="" asp-controller="Recipes" asp-action="Index">View all recipes</a>
+    <br />
+    <br />
+
+    <a class="btn btn-info" asp-area="" asp-controller="Recipes" asp-action="CreateRecipe">Add a new recipe</a><br />
+    <br />
+    <table style="width:100%" align="center">
+
+        <tr>
+            <td><img src="https://preppykitchen.com/wp-content/uploads/2019/06/Chocolate-cake-recipe-1200a.jpg" alt="Chocolate Cake" width="300" height="300"></td>
+            <td><img src="https://feed-your-sole.com/wp-content/uploads/2020/02/Frozen-Daiquri-Mocktail-800x638.png" alt="Strawberry Daiquiri" width="300" height="300"></td>
+            <td><img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg?output-format=auto&output-quality=auto" alt="Pizza" width="300" height="300"></td>
+            <td><img src="https://nomoneynotime.com.au/imager/uploads/recipes/1435/Baked-Potato-with-Tuna-Sweetcorn-red-onion-and-Mayo_374635aacd4cafccef5bb0653ee5dedb.jpeg" alt="Jacket Potatoe" width="300" height="300"></td>
+        </tr>
+        <tr>
+            <td>Chocolate Cake</td>
+            <td>Strawberry Daiquiri</td>
+            <td>Pizza</td>
+            <td>Jacket Potatoe</td>
+        </tr>
+    </table>
+</div>
+

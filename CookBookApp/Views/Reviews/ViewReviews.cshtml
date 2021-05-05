@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CookBookApp.Models.Review>
+
+@{
+    ViewData["Title"] = "Reviews";
+}
+
+<h1>@ViewBag.RecipeName's Reviews</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.createdAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    <p>@Html.DisplayFor(modelItem => item.Rating)/5 </p> @*display the reviews rating*@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.createdAt)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-success" asp-area="" asp-controller="Recipes" asp-action="Index">View all Recipes</a>
