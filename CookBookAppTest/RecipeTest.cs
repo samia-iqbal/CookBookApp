@@ -2,6 +2,7 @@ using CookBookApp.Controllers;
 using CookBookApp.Interfaces;
 using CookBookApp.Models;
 using CookBookApp.Models.Binding;
+using Microsoft.AspNetCore.Mvc;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -13,17 +14,17 @@ namespace CookBookAppTest
     public class RecipeTest
     {
         private RecipesController recipesController;
-      
+
         private Mock<IRepositoryWrapper> mockRepo;
-        //private AddRecipeBindingModel addRecipe;
+        private AddRecipeBindingModel addRecipe;
 
 
         public RecipeTest()
         {
             mockRepo = new Mock<IRepositoryWrapper>();
             recipesController = new RecipesController(mockRepo.Object);
+            addRecipe = new AddRecipeBindingModel() { };
 
-            
         }
 
         [Fact]
@@ -36,11 +37,7 @@ namespace CookBookAppTest
             //Assert
             Assert.NotNull(controllerActionResult);
 
-
-
         }
-
-
 
         private IEnumerable<Recipe> GetRecipes()
         {
@@ -55,12 +52,28 @@ namespace CookBookAppTest
                Description = "eded", NoServing = 10,
                PrepTime = "20 minute", Ingredient = "lettuce", Method = "mixrdgdg it", ImageURL ="https://www.megaretailer.co.uk/media/catalog/product/cache/a6f4aec1db93cb13677a62a0babd5631/1/7/17UP3000-16_08_2019_10_58_53_14.jpg" }
                 };
-               return recipes;
-            
+            return recipes;
+
         }
         private Recipe GetRecipe()
         {
             return GetRecipes().ToList()[0];
         }
+
+
+        private void AddRecipe_Test()
+        {
+            //Arrange
+            mockRepo.Setup(repo => repo.Recipes.FindByCondition(r => r.ID == It.IsAny<int>())).Returns(GetRecipes());
+            //Act
+            var controllerActionResult = new RecipesController(mockRepo.Object).CreateRecipe(addRecipe);
+            //Assert
+            Assert.NotNull(controllerActionResult);
+            Assert.IsType<RedirectToActionResult>(controllerActionResult);
+
+        }
+
+
+
     }
 }

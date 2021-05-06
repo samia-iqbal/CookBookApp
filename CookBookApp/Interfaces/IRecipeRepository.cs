@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CookBookApp.Interfaces
 {
-    public interface IRecipeRepository : IRepository<Recipe>{}
-
+    public interface IRecipeRepository : IRepository<Recipe>
+    {
+    }
 }
