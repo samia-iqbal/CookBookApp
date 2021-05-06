@@ -3,14 +3,16 @@ using System;
 using CookBookApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CookBookApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20210506080540_r4")]
+    partial class r4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -61,7 +63,7 @@ namespace CookBookApp.Migrations
                     b.Property<int>("Rating")
                         .HasColumnType("int");
 
-                    b.Property<int>("RecipeID")
+                    b.Property<int?>("RecipeID")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("createdAt")
@@ -78,9 +80,7 @@ namespace CookBookApp.Migrations
                 {
                     b.HasOne("CookBookApp.Models.Recipe", "Recipe")
                         .WithMany("Reviews")
-                        .HasForeignKey("RecipeID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("RecipeID");
 
                     b.Navigation("Recipe");
                 });
