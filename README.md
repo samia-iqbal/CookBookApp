@@ -1,5 +1,6 @@
 # Cook Book App
 ### Abstract
+____________________________________________
 The cook book will include different type of recipes. The users will be able to interact with the cook book app through CRUD functionalities such as add, read, update and delete recipes on the cook book app. The app is mainly designed to allow different types of users to view various types of recipes, allowing them to use the recipes available on cook book to enhance their both cooking and learning techniques. This app can be used by anyone whether they just want to view recipes for their cooking or to help others by adding in recipes to the app. The cook book app may also allow the users to leave a review for a recipe. This project will follow an agile methodology, followed by diagrams, risk assessement carried out and requirements that will be gathered to execute the interactive cook book app. Lastly, unit testing and continous integration will also be performed which will confirm if the app is ready to deploy for the users. 
 ### Aim and Objectives
 The aims and objectives of this projects are as the following:
@@ -64,7 +65,10 @@ The aims and objectives of this projects are as the following:
     </tr>
   </body>
 </table>
-  
+
+### Project Tracking tool
+
+For my CookBookApp project, I used a Trello Kanban board to create user stories and tasks. 
 ### Functional and Non-functional Requirements 
 The table below shows the requirements of the project using the MoSCoW technique where I will be prioritising requirements.
 <table>
