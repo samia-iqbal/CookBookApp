@@ -119,7 +119,14 @@ Below is the UML logical model for the CookBook App. The diagram explores the di
 The relationship between the Users and Recipes is one to many which means that one user can add many recipes and in other words it means that many recipes can be added by one User. The relationship between the Users and Reviews is again one to many as one user can add many reviews too. 
 ![UML](umlERD.PNG)
 
-
+### Front End of the App
+![homeapp](homeApp.PNG)
+![allrecipes](allRecipes.PNG)
+![addRecipe](addRecipe.PNG)
+![detail](detailsRecipe.PNG)
+![editRecipe](editRecipe.PNG)
+![addReview](addReview.PNG)
+![viewRecipe](viewReviews.PNG)
 
 
 ### Testing Report
