@@ -69,7 +69,10 @@ The aims and objectives of this projects are as the following:
 ### Project Tracking tool
 
 For my CookBookApp project, I used a Trello Kanban board to create user stories and tasks. 
+
 ![trello](trelloCookBookApp.png)
+
+
 ### Functional and Non-functional Requirements 
 The table below shows the requirements of the project using the MoSCoW technique where I will be prioritising requirements.
 <table>
