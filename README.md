@@ -166,6 +166,8 @@ Below is the reviews for recipes, this will allow the user to view all reviews f
 ### Testing Report
 _________________________________________________________________________
 
+xUnit tests were used to run the tests for the CookBookApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The CookBookApp I have created runs on .NET framework which an MVC. The reason why I used xUnit testing is to compile the code and to detect problems at the early phase of developing the app before actually deploying the app. For the CookBookApp, I have tested all of my controllers as shown on the screenshot below. The actions within my controllers have all been tested and all of the tests for them have successfully passed. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the CookBookApp. 
+
 ![testing](testReport1.PNG)
 
 ![testing](testReport2.PNG)
