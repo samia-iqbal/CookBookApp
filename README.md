@@ -125,16 +125,37 @@ The relationship between the Users and Recipes is one to many which means that o
 ![UML](umlERD.PNG)
 
 ### Front End of the App
+
+This is the home page of the CookBookApp which will allow the user to navigate to the recipes page and explore different types of recipes 
 ![homeapp](homeApp.PNG)
+
+This is the All Recipes page of the CookBookApp which will allow the user to explore different type of recipes 
 ![allrecipes](allRecipes.PNG)
+
 ![addRecipe](addRecipe.PNG)
+
 ![detail](detailsRecipe.PNG)
+
 ![editRecipe](editRecipe.PNG)
+
 ![addReview](addReview.PNG)
+
 ![viewRecipe](viewReviews.PNG)
 
 
 ### Testing Report
+
 ![testing](testReport1.PNG)
 
 ![testing](testReport2.PNG)
+
+### Risk Assessement 
+
+
+
+
+### Evaluation 
+
+
+
+
