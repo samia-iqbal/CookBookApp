@@ -70,7 +70,7 @@ The aims and objectives of this projects are as the following:
 
 ### Project Tracking tool
 _______________________________________________________
-For my CookBookApp project, I used a Trello Kanban board to create user stories and tasks which will make it easier for me to follow the project speccifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented. 
+For my CookBookApp project, I used a Trello Kanban board to create user stories and tasks which will make it easier for me to follow the project specifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented. 
 
 ![trello](trelloCookBookApp.PNG)
 
@@ -132,19 +132,33 @@ The relationship between the Users and Recipes is one to many which means that o
 ### Front End of the App
 ____________________________________________________________________
 
-This is the home page of the CookBookApp which will allow the user to navigate to the recipes page and explore different types of recipes 
+In this section, I will be demonstrating the front end of the CookBookApp, where the user will be directly interacting with the app.
+
+Below is the home page of the CookBookApp which will allow the user to navigate to the recipes page and explore different types of recipes.
+
 ![homeapp](homeApp.PNG)
 
-This is the All Recipes page of the CookBookApp which will allow the user to explore different type of recipes 
+Below is the All Recipes page of the CookBookApp which will allow the user to explore different type of recipes.
+
 ![allrecipes](allRecipes.PNG)
+
+Below is the Add Recipe page on the CookBook App which will allow the users to add a recipe, allowing them to help others with cooking. 
 
 ![addRecipe](addRecipe.PNG)
 
+Below is all different types of recipes that the users can view to help them for cooking.
+
 ![detail](detailsRecipe.PNG)
+
+Below is the edit recipe page, where the user will be allowed to edit the recipe they have uploaded, incase they may have made ay mistakes and want to make amendments. 
 
 ![editRecipe](editRecipe.PNG)
 
+Below is the add review page, where a user can leave a review on any recipe they would like to. This will help others decide whether or not they should this recipe or not.
+
 ![addReview](addReview.PNG)
+
+Below is the reviews for recipes, this will allow the user to view all reviews for a certain recipe. 
 
 ![viewRecipe](viewReviews.PNG)
 
