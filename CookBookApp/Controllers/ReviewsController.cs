@@ -93,32 +93,6 @@ namespace CookBookApp.Controllers
 
         }
 
-        ////UPDATE
-        //[Route("update/{id:int}")]
-        //public IActionResult Update(int id)
-        //{
-        //    var reviewId = dbContext.Reviews.FirstOrDefault(r => r.ID == id);
-        //    return View(reviewId);
-        //}
-        //[HttpPost]
-        //[Route("update/{id:int}")]
-        //public IActionResult Update(Review review, int id)
-        //{
-        //    var updateReview = dbContext.Reviews.FirstOrDefault(r => r.ID == id);
-        //    updateReview.Rating = review.Rating;
-        //    updateReview.Description = review.Description;
-        //    updateReview.createdAt = DateTime.Now;
-        //    dbContext.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
-        //DELETE
-        //[Route("delete/{id:int}")]
-        //public IActionResult Delete(int id)
-        //{
-        //    var reviewToDelete = dbContext.Reviews.FirstOrDefault(r => r.Recipe.ID == id);
-        //    dbContext.Reviews.Remove(reviewToDelete);
-        //    dbContext.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
+     
     }
 }
