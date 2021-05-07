@@ -4,6 +4,7 @@ ____________________________________________
 The cook book App will include different type of recipes. The users will be able to interact with the cook book app through CRUD functionalities such as add, read, update and delete recipes on the cook book app. The app is mainly designed to allow different types of users to view various types of recipes, allowing them to use the recipes available on cook book app to enhance their both cooking and learning techniques. This app can be used by anyone whether they just want to view recipes for their cooking or to help others by adding in recipes to the app. The cook book app will also allow the users to leave a review for a recipe and view other reviews for each recipe. This feature will be designed to help other users to decide whether or not they should use that recipe and if it is ideal for cooking or not. This project will follow an agile methodology, followed by diagrams, risk assessement carried out and requirements that will be gathered to execute the interactive cook book app. Lastly, unit testing and continous integration will also be performed, and I will also be deploying the app to allow the users to use it. 
 
 ### Aim and Objectives
+_____________________________________________
 The aims and objectives of this projects are as the following:
 <table>
   <body>
@@ -68,7 +69,7 @@ The aims and objectives of this projects are as the following:
 </table>
 
 ### Project Tracking tool
-
+_______________________________________________________
 For my CookBookApp project, I used a Trello Kanban board to create user stories and tasks which will make it easier for me to follow the project speccifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented. 
 
 ![trello](trelloCookBookApp.PNG)
@@ -76,6 +77,7 @@ For my CookBookApp project, I used a Trello Kanban board to create user stories 
 ![trello](trello2.PNG)
 
 ### Functional and Non-functional Requirements 
+_______________________________________________________________________
 The table below shows the requirements of the project using the MoSCoW technique where I will be prioritising requirements.
 <table>
   <body>
@@ -112,11 +114,13 @@ The table below shows the requirements of the project using the MoSCoW technique
 </table>
 
 ### Use Case diagram 
+_________________________________________________________________
 Below is the the use case diagram which demonstrates how the user will be interacting with the system which in this case is the Cook Book App (Please note that for implementation, I will only be interacting with two database tables which are recipes and reviews).
 
 ![UML](usecase2.png)
 
 ### Entity diagram 
+________________________________________________________________________
 Below is the Chen's conceptual model for the CookBook App. The diagram consists of entity types which in this case are Recipes, Users and Reviews, it also consists of relationships which are manages and contains. The user will manage recipes which in further detail means that the user can add/delete/update/review recipes. For the following entity types, there are different types of attributes such as primary key, foreign key and other attributes. The attributes in yellow are the primary key and the attributes in pink are the foreign key, which essentially means that this attribute was inherited from another table. 
 ![chen](ChenLogical.PNG)
 
@@ -126,6 +130,7 @@ The relationship between the Users and Recipes is one to many which means that o
 ![UML](umlERD.PNG)
 
 ### Front End of the App
+____________________________________________________________________
 
 This is the home page of the CookBookApp which will allow the user to navigate to the recipes page and explore different types of recipes 
 ![homeapp](homeApp.PNG)
@@ -145,18 +150,19 @@ This is the All Recipes page of the CookBookApp which will allow the user to exp
 
 
 ### Testing Report
+_________________________________________________________________________
 
 ![testing](testReport1.PNG)
 
 ![testing](testReport2.PNG)
 
 ### Risk Assessement 
-
+____________________________________________________________________________
 
 
 
 ### Evaluation 
-
+_________________________________________________________________
 
 
 
