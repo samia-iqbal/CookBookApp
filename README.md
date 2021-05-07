@@ -72,6 +72,7 @@ For my CookBookApp project, I used a Trello Kanban board to create user stories 
 
 ![trello](trelloCookBookApp.PNG)
 
+![trello](trello2.PNG)
 
 ### Functional and Non-functional Requirements 
 The table below shows the requirements of the project using the MoSCoW technique where I will be prioritising requirements.
