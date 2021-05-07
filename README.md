@@ -70,7 +70,7 @@ The aims and objectives of this projects are as the following:
 
 For my CookBookApp project, I used a Trello Kanban board to create user stories and tasks. 
 
-![trello](trelloCookBookApp.png)
+![trello](trelloCookBookApp.PNG)
 
 
 ### Functional and Non-functional Requirements 
