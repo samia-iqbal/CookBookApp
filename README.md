@@ -123,6 +123,6 @@ The relationship between the Users and Recipes is one to many which means that o
 
 
 ### Testing Report
-![testing](testingReport1.PNG)
+![testing](testReport1.PNG)
 
-![testing](testingReport1.PNG)
+![testing](testReport1.PNG)
