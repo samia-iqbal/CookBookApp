@@ -1,7 +1,7 @@
 # CookBookApp
 ### Abstract
 ____________________________________________
-The cookbookApp will include different type of recipes. The users will be able to interact with the cook book app through CRUD functionalities such as add, read, update and delete recipes on the cook book app. The app is mainly designed to allow different types of users to view various types of recipes, allowing them to use the recipes available on cook book app to enhance their both cooking and learning techniques. This app can be used by anyone whether they just want to view recipes for their cooking or to help others by adding in recipes to the app. The cook book app will also allow the users to leave a review for a recipe and view other reviews for each recipe. This feature will be designed to help other users to decide whether or not they should use that recipe and if it is ideal for cooking or not. This project will follow an agile methodology, followed by diagrams, risk assessement carried out and requirements that will be gathered to execute the interactive cookBookApp. Lastly, unit testing and continous integration will also be performed, and I will also be deploying the app to allow the users to use it. 
+The CookBookApp will include different type of recipes. The users will be able to interact with the cook book app through CRUD functionalities such as add, read, update and delete recipes on the cook book app. The app is mainly designed to allow different types of users to view various types of recipes, allowing them to use the recipes available on cook book app to enhance their both cooking and learning techniques. This app can be used by anyone whether they just want to view recipes for their cooking or to help others by adding in recipes to the app. The cook book app will also allow the users to leave a review for a recipe and view other reviews for each recipe. This feature will be designed to help other users to decide whether or not they should use that recipe and if it is ideal for cooking or not. This project will follow an agile methodology, followed by diagrams, risk assessement carried out and requirements that will be gathered to execute the interactive cookBookApp. Lastly, unit testing and continous integration will also be performed, and I will also be deploying the app to allow the users to use it. 
 
 ### Aim and Objectives
 _____________________________________________
@@ -234,7 +234,9 @@ The strengths of this project were that:
 * I was able to use all of the tools that I learnt during the training and apply them to my project.
 
 The weaknesses of this project were that:
-* I was not able to deploy the app through the Azure pipelines as the build failed, therefore had to use an alternative way to deploy the CookBookApp. 
+* I was not able to deploy the app through the Azure pipelines as the build failed, therefore had to use an alternative way to deploy the CookBookApp. However, I was able to build the code and create a YAML file as shown below:
+
+
 * I was not able to do alot of work on the front end of the side to make the app look prettier and more user friendly. 
 
 Further improvements:
@@ -244,6 +246,7 @@ Further improvements:
 * Deploy the app through Azure pipelines
 * Implement the should have, could have and wont have requirements of this project in the future 
 * Include validations. For example, if the user enters a text rather than a number in the number of serving part, then it should prompt a user with a message stating them to enter a valid number. Also, create validations for empty forms. For example, if the form is left empty and user clicks save, it wont submit or add to the database as all fields should be mandatory to be filled in. 
+* Use Angular for the front end to integrate it with ASP.NET.
 
 ### Authors
 _________________________________
