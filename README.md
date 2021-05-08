@@ -212,5 +212,25 @@ Below is the Chen style version of the logical ERD diagram:
 ### Evaluation 
 _________________________________________________________________
 
+The strengths of this project were that:
+* I was able to use a Trello Kanban Board successfully.
+* I was able to complete the CRUD functionality successfully and was able to link the two tables on the database successfully. For example, I was able to retrieve the RecipeID in my Reviews table in the database and was able to add reviews and views for a certain recipe. 
+* I was able to use ASP.NET as my front end and back end. 
+* I was able to connect the workBench with AzureMySql and ASP.NET
+* I was able to test both of my recipes and reviews controller and generated a report for them to show the overall test coverage 
+* I was able to deploy my app on the Azure App Service through publishing the app on visual studio and was able to perform continous integration. 
+* I was able to re-create all of my diagrams and revisit them to compare what I had before the implementation and after the implementation, allowing me to suggest future work that may be required for the app by using the MoSCoW technique. 
+* I was able to carry out the risk assessements and I also revisited the risks to see how I mitigated the risk 
+* I was able to push my CookBookApp code to the github successfully.
+* I was able to use all of the tools that I learnt during the training and apply them to my project.
 
+The weaknesses of this project were that:
+* I was not able to deploy the app through the Azure pipelines as the build failed, therefore had to use an alternative way to deploy the CookBookApp. 
+* I was not able to do alot of work on the front end of the side to make the app look prettier and more user friendly. 
 
+Further improvements:
+* Test the whole code and increase the code coverage report percentage 
+* Work on making the app look more user friendly. For example, when the user adds recipe to the app, the description textarea should be bigger allowing them to add a detailed description without any hassle.
+* Deploy the app through Azure pipelines
+* Implement the should have, could have and wont have requirements of this project in the future 
+* Include validations. For example, if the user enters a text rather than a number in the number of serving part, then it should prompt a user with a message stating them to enter a valid number. Also, create validations for empty forms. For example, if the form is left empty and user clicks save, it wont submit or add to the database as all fields should be mandatory to be filled in. 
