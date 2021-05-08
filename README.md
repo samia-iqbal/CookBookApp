@@ -1,7 +1,7 @@
-# Cook Book App
+# CookBookApp
 ### Abstract
 ____________________________________________
-The cook book App will include different type of recipes. The users will be able to interact with the cook book app through CRUD functionalities such as add, read, update and delete recipes on the cook book app. The app is mainly designed to allow different types of users to view various types of recipes, allowing them to use the recipes available on cook book app to enhance their both cooking and learning techniques. This app can be used by anyone whether they just want to view recipes for their cooking or to help others by adding in recipes to the app. The cook book app will also allow the users to leave a review for a recipe and view other reviews for each recipe. This feature will be designed to help other users to decide whether or not they should use that recipe and if it is ideal for cooking or not. This project will follow an agile methodology, followed by diagrams, risk assessement carried out and requirements that will be gathered to execute the interactive cook book app. Lastly, unit testing and continous integration will also be performed, and I will also be deploying the app to allow the users to use it. 
+The cookbookApp will include different type of recipes. The users will be able to interact with the cook book app through CRUD functionalities such as add, read, update and delete recipes on the cook book app. The app is mainly designed to allow different types of users to view various types of recipes, allowing them to use the recipes available on cook book app to enhance their both cooking and learning techniques. This app can be used by anyone whether they just want to view recipes for their cooking or to help others by adding in recipes to the app. The cook book app will also allow the users to leave a review for a recipe and view other reviews for each recipe. This feature will be designed to help other users to decide whether or not they should use that recipe and if it is ideal for cooking or not. This project will follow an agile methodology, followed by diagrams, risk assessement carried out and requirements that will be gathered to execute the interactive cookBookApp. Lastly, unit testing and continous integration will also be performed, and I will also be deploying the app to allow the users to use it. 
 
 ### Aim and Objectives
 _____________________________________________
@@ -70,7 +70,7 @@ The aims and objectives of this projects are as the following:
 
 ### Project Tracking tool
 _______________________________________________________
-For my CookBookApp project, I used a Trello Kanban board to create user stories and tasks which will make it easier for me to follow the project specifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently, testing and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented and have been labelled. To view my trello board, please click on this link https://trello.com/b/oaleSto7/cookbookapp 
+For my CookBookApp project, I used a Trello Kanban board to create user stories(which demonstrates the fact that why does each functionality exist and what benefit will it bring to us) and tasks which will make it easier for me to follow the project specifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently, testing and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented and have been labelled. To view my trello board, please click on this link https://trello.com/b/oaleSto7/cookbookapp 
 
 ![trello](trelloCookBookApp.PNG)
 
@@ -210,6 +210,11 @@ Here is an updated version of my ERD after the implementation. The ERD diagram b
 Below is the Chen style version of the logical ERD diagram:
 
 ![updatechen](ChenLogicalcopy.png)
+
+Below is an updated version of my Kanban board. I have completed all of the required tasks successfully. However, was unable to create a prototype for the CookBookApp as I ran out of time. 
+
+![updatekanban](updateKabanban.PNG)
+
 
 
 
