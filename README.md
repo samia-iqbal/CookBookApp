@@ -234,8 +234,9 @@ The strengths of this project were that:
 * I was able to use all of the tools that I learnt during the training and apply them to my project.
 
 The weaknesses of this project were that:
-* I was not able to deploy the app through the Azure pipelines as the build failed, therefore had to use an alternative way to deploy the CookBookApp. However, I was able to build the code and create a YAML file as shown below:
+* I was not able to deploy the app through the Azure pipelines as the build failed, therefore had to use an alternative way to deploy the CookBookApp. However, I was able to build the code and create a YAML file but was unable to deploy the app unsuccessfully as shown below:
 
+![dev](devop.PNG)
 
 * I was not able to do alot of work on the front end of the side to make the app look prettier and more user friendly. 
 
