@@ -190,11 +190,24 @@ The following requirements that have been implemented in this project are:
 * The user must be able to add reviews 
 * The user must be able to view reviews
 
-![UPDATEerd](updateERD.PNG)
+Here is an updated version of my use case diagram below, whcich shows the requirements of this project that have been implemented. 
 
 ![UPDATEerd](updateusecase.PNG)
 
+
+Here is an updated version of my ERD after the implementation. The ERD diagram below explores the zero to many and one to many relationships between recipes and reviews. The relationship between both recipes and reviews are as the following:
+* One recipe can have zero reviews 
+* One recipe can have many reviews 
+* Zero reviews may exist in one recipe
+* Many reviews may exist in many recipes 
+
+![UPDATEerd](updateERD.PNG)
+
+Below is the Chen style version of the logical ERD diagram:
+
 ![updatechen](ChenLogicalcopy.png)
+
+
 
 ### Evaluation 
 _________________________________________________________________
