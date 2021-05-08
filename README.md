@@ -176,6 +176,10 @@ xUnit tests were used to run the tests for the CookBookApp. xUnit test is a unit
 ### Risk Assessement 
 ____________________________________________________________________________
 
+![testing](risk1.PNG)
+![testing](risk2.PNG)
+![testing](risk3.PNG)
+
 
 ### Revisits - Updated Version of diagrams after the implementation 
 _______________________________________________________________________________________________
