@@ -244,3 +244,9 @@ Further improvements:
 * Deploy the app through Azure pipelines
 * Implement the should have, could have and wont have requirements of this project in the future 
 * Include validations. For example, if the user enters a text rather than a number in the number of serving part, then it should prompt a user with a message stating them to enter a valid number. Also, create validations for empty forms. For example, if the form is left empty and user clicks save, it wont submit or add to the database as all fields should be mandatory to be filled in. 
+
+### Authors
+_________________________________
+
+Samia Iqbal
+
