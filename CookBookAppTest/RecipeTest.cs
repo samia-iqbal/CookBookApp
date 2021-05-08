@@ -42,7 +42,7 @@ namespace CookBookAppTest
 
         }
 
-
+        [Fact]
         private IEnumerable<Recipe> GetRecipes()
         {
             var recipes = new List<Recipe>
@@ -59,6 +59,7 @@ namespace CookBookAppTest
             return recipes;
 
         }
+        [Fact]
         private Recipe GetRecipe()
         {
             return GetRecipes().ToList()[0];
@@ -74,6 +75,7 @@ namespace CookBookAppTest
         Assert.NotNull(controllerActionResult);
 
         }
+        [Fact]
         private IEnumerable<Review> GetReviews()
            {
             var reviews = new List<Review>
@@ -86,6 +88,8 @@ namespace CookBookAppTest
             return reviews;
            
            }
+
+        [Fact]
         private Review GetReview()
         {
             return GetReviews().ToList()[0];
@@ -102,6 +106,22 @@ namespace CookBookAppTest
             Assert.IsType<RedirectToActionResult>(controllerActionResult);
           
         }
+        [Fact]
+
+        public void ViewRecipe_Test()
+        {
+            mockRepo.Setup(repo => repo.Recipes.FindByCondition(r => r.ID == It.IsAny<int>())).Returns(GetRecipes());
+            var controllerActionResult = recipesController.ViewRecipes(It.IsAny<int>());
+            Assert.NotNull(controllerActionResult);
+        }
+        [Fact]
+        public void ViewReview_Test()
+        {
+            mockRepo.Setup(repo => repo.Reviews.FindByCondition(r => r.ID == It.IsAny<int>())).Returns(GetReviews());
+            var controllerActionResult = reviewsController.Details(It.IsAny<int>());
+            Assert.NotNull(controllerActionResult);
+        }
+
         [Fact]
         private void AddReview_Test()
         {
