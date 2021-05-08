@@ -151,7 +151,7 @@ Below are the details for one recipe
 
 ![detail](detailRecipe.PNG)
 
-Below is the edit recipe page, where the user will be allowed to edit the recipe they have uploaded, incase they may have made ay mistakes and want to make amendments. 
+Below is the edit recipe page, where the user will be allowed to edit the recipe they have uploaded, incase they may have made any mistakes and want to make amendments. 
 
 ![editRecipe](editRecipe.PNG)
 
@@ -213,7 +213,7 @@ Below is the Chen style version of the logical ERD diagram:
 
 Below is an updated version of my Kanban board. I have completed all of the required tasks successfully. However, was unable to create a prototype for the CookBookApp as I ran out of time. 
 
-![updatekanban](updateKabanban.PNG)
+![updatekanban](updateKanban.PNG)
 
 
 
@@ -239,6 +239,7 @@ The weaknesses of this project were that:
 
 Further improvements:
 * Test the whole code and increase the code coverage report percentage 
+* Create a prototype for the CookBookApp
 * Work on making the app look more user friendly. For example, when the user adds recipe to the app, the description textarea should be bigger allowing them to add a detailed description without any hassle.
 * Deploy the app through Azure pipelines
 * Implement the should have, could have and wont have requirements of this project in the future 
