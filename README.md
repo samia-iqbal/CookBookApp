@@ -147,7 +147,7 @@ Below is the Add Recipe page on the CookBook App which will allow the users to a
 
 ![addRecipe](addRecipe.PNG)
 
-Below is all different types of recipes that the users can view to help them for cooking.
+Below are the details for one recipe
 
 ![detail](detailsRecipe.PNG)
 
