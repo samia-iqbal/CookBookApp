@@ -183,7 +183,7 @@ ____________________________________________________________________________
 
 ![UPDATEerd](updateusecase.PNG)
 
-![updatechen] (ChenLogicalcopy.png)
+![updatechen](ChenLogicalcopy.png)
 
 ### Evaluation 
 _________________________________________________________________
