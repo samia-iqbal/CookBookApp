@@ -167,11 +167,11 @@ Below is the reviews for recipes, this will allow the user to view all reviews f
 ### Testing Report
 _________________________________________________________________________
 
-xUnit tests were used to run the tests for the CookBookApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The CookBookApp I have created runs on .NET framework which an MVC. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the CookBookApp, I have tested all of my controllers and actions as shown on the screenshot below. However, some of the actions returned null which resulted in some of my tests failing. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the CookBookApp. 
+xUnit tests were used to run the tests for the CookBookApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The CookBookApp I have created runs on .NET framework which an MVC. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the CookBookApp, I have tested all of my controllers and actions as shown on the screenshot below. However, some of the actions returned null which resulted in some of my tests failing. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the CookBookApp. As you can see that the test coverage for the Recipes Controller is 76.4& for the Review Controller the test coverage is 71.7%. 
 
-![testing](testReport1.PNG)
+![testing](testReportOne.PNG)
 
-![testing](testReport2.PNG)
+![testing](testReportTwo.PNG)
 
 ### Risk Assessement 
 ____________________________________________________________________________
@@ -230,7 +230,6 @@ The weaknesses of this project were that:
 
 Further improvements:
 * Test the whole code and increase the code coverage report percentage 
-* Figure out why did certain tests such as the delete action and update action failed and returned null.
 * Work on making the app look more user friendly. For example, when the user adds recipe to the app, the description textarea should be bigger allowing them to add a detailed description without any hassle.
 * Deploy the app through Azure pipelines
 * Implement the should have, could have and wont have requirements of this project in the future 
