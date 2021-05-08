@@ -149,7 +149,7 @@ Below is the Add Recipe page on the CookBook App which will allow the users to a
 
 Below are the details for one recipe
 
-![detail](detailsRecipe.PNG)
+![detail](detailRecipe.PNG)
 
 Below is the edit recipe page, where the user will be allowed to edit the recipe they have uploaded, incase they may have made ay mistakes and want to make amendments. 
 
