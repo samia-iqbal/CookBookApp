@@ -167,7 +167,7 @@ Below is the reviews for recipes, this will allow the user to view all reviews f
 ### Testing Report
 _________________________________________________________________________
 
-xUnit tests were used to run the tests for the CookBookApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The CookBookApp I have created runs on .NET framework which an MVC. The reason why I used xUnit testing is to compile the code and to detect problems at the early phase of developing the app before actually deploying the app. For the CookBookApp, I have tested all of my controllers as shown on the screenshot below. The actions within my controllers have all been tested and all of the tests for them have successfully passed. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the CookBookApp. 
+xUnit tests were used to run the tests for the CookBookApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The CookBookApp I have created runs on .NET framework which an MVC. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the CookBookApp, I have tested all of my controllers and actions as shown on the screenshot below. However, some of the actions returned null which resulted in some of my tests failing. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the CookBookApp. 
 
 ![testing](testReport1.PNG)
 
@@ -215,7 +215,7 @@ _________________________________________________________________
 The strengths of this project were that:
 * I was able to use a Trello Kanban Board successfully.
 * I was able to complete the CRUD functionality successfully and was able to link the two tables on the database successfully. For example, I was able to retrieve the RecipeID in my Reviews table in the database and was able to add reviews and views for a certain recipe. 
-* I was able to use ASP.NET as my front end and back end. 
+* I was able to use ASP.NET, HTML and CSS as my front end and back end. 
 * I was able to connect the workBench with AzureMySql and ASP.NET
 * I was able to test both of my recipes and reviews controller and generated a report for them to show the overall test coverage 
 * I was able to deploy my app on the Azure App Service through publishing the app on visual studio and was able to perform continous integration. 
@@ -230,6 +230,7 @@ The weaknesses of this project were that:
 
 Further improvements:
 * Test the whole code and increase the code coverage report percentage 
+* Figure out why did certain tests such as the delete action and update action failed and returned null.
 * Work on making the app look more user friendly. For example, when the user adds recipe to the app, the description textarea should be bigger allowing them to add a detailed description without any hassle.
 * Deploy the app through Azure pipelines
 * Implement the should have, could have and wont have requirements of this project in the future 
