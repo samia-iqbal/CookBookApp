@@ -227,7 +227,11 @@ The strengths of this project were that:
 * I was able to use ASP.NET, HTML and CSS as my front end and back end. 
 * I was able to connect the workBench with AzureMySql and ASP.NET
 * I was able to test both of my recipes and reviews controller and generated a report for them to show the overall test coverage 
-* I was able to deploy my app on the Azure App Service through publishing the app on visual studio and was able to perform continous integration. 
+* I was able to deploy my app on the Azure App Service through publishing the app on visual studio and was able to perform continous integration as shown below on the screenshot:
+
+![deploy](deploy.PNG)
+
+
 * I was able to re-create all of my diagrams and revisit them to compare what I had before the implementation and after the implementation, allowing me to suggest future work that may be required for the app by using the MoSCoW technique. 
 * I was able to carry out the risk assessements and I also revisited the risks to see how I mitigated the risk 
 * I was able to push my CookBookApp code to the github successfully.
