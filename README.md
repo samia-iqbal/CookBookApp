@@ -180,6 +180,16 @@ ____________________________________________________________________________
 ### Revisits - Updated Version of diagrams after the implementation 
 _______________________________________________________________________________________________
 
+In this project. I was able to implement the must requirements which was stated in the project requirements section on this documentation previously. I was also able to implement other requirements too. 
+
+The following requirements that have been implemented in this project are:
+* The user must be able to view recipes 
+* The user must be able to add recipes 
+* The user must be able to edit recipes
+* The user must be able to delete recipes
+* The user must be able to add reviews 
+* The user must be able to view reviews
+
 ![UPDATEerd](updateERD.PNG)
 
 ![UPDATEerd](updateusecase.PNG)
