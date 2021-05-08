@@ -70,7 +70,7 @@ The aims and objectives of this projects are as the following:
 
 ### Project Tracking tool
 _______________________________________________________
-For my CookBookApp project, I used a Trello Kanban board to create user stories(which demonstrates the fact that why does each functionality exist and what benefit will it bring to us) and tasks which will make it easier for me to follow the project specifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently, testing and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented and have been labelled. To view my trello board, please click on this link https://trello.com/b/oaleSto7/cookbookapp 
+For my CookBookApp project, I used a Trello Kanban board to create user stories (which explains the existence of each functonality and what benefit will it bring to us) and tasks which will make it easier for me to follow the project specifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently, testing and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented and have been labelled. To view my trello board, please click on this link https://trello.com/b/oaleSto7/cookbookapp 
 
 ![trello](trelloCookBookApp.PNG)
 
