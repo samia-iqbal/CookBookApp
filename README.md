@@ -27,7 +27,7 @@ The aims and objectives of this projects are as the following:
         </ul></td>
     </tr>
     <tr>
-      <td><ul><li>Create a working CRUD functionality created for the Cook Book App using a database and coding</li></ul></td>
+      <td><ul><li>Create a working CRUD functionality created for the CookBookApp using a database and coding</li></ul></td>
       <td align="left">
       <ul><li>Will be using programming languages such as C# to create the backend of the CRUD functionality</li>
       <li>Will be using MySQL database to store the data for the recipes and reviews and connect it to C#</li></ul>
@@ -40,13 +40,13 @@ The aims and objectives of this projects are as the following:
         </ul>
       </td>
       <td align="left"><ul>
-          <li>Will be using ASP.NET, HTML and CSS to create the front end, allowing the users to interact with the Cook Book App</li>
+          <li>Will be using ASP.NET, HTML and CSS to create the front end, allowing the users to interact with the CookBookApp</li>
         </ul></td>
     </tr>
     <tr>
       <td>
         <ul>
-          <li>Testing for the Cook Book App</li>
+          <li>Testing for the CookBookApp</li>
         </ul>
       </td>
       <td align="left"><ul>
@@ -57,7 +57,7 @@ The aims and objectives of this projects are as the following:
      <tr>
       <td>
         <ul>
-          <li>Integrate the code for the Cook Book App</li>
+          <li>Integrate the code for the CookBookApp</li>
         </ul>
       </td>
       <td align="left"><ul>
@@ -128,6 +128,7 @@ Below is the Chen's conceptual model for the CookBook App. The diagram consists 
 Below is the UML logical model for the CookBook App. The diagram explores the different types of tables that will be on the database and how these tables will be interacting with one and another. For example, the recipeID will be retrieved in the Reviews table. This is to allow the users to add or read a review of a certain recipe. 
 
 The relationship between the Users and Recipes is one to many which means that one user can add many recipes and in other words it means that many recipes can be added by one User. The relationship between the Users and Reviews is again one to many as one user can add many reviews too. 
+
 ![UML](umlERD.PNG)
 
 ### Front End of the App
