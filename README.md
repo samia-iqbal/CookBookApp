@@ -208,7 +208,7 @@ Here is an updated version of my ERD after the implementation. The ERD diagram b
 
 ![UPDATEerd](updateERD.PNG)
 
-Below is the Chen style version of the logical ERD diagram:
+Below is the Chen style version of the conceptual ERD diagram:
 
 ![updatechen](ChenLogicalcopy.png)
 
@@ -228,7 +228,7 @@ The strengths of this project were that:
 * I was able to use ASP.NET, HTML and CSS as my front end and back end. 
 * I was able to connect the workBench with AzureMySql and ASP.NET
 * I was able to test both of my recipes and reviews controller and generated a report for them to show the overall test coverage 
-* I was able to deploy my app on the Azure App Service through publishing the app on visual studio and was able to perform continous integration as shown below on the screenshot:
+* I was able to deploy my app through the Azure App Service and publishing the app on visual studio, allowing me to perform continous integration as shown below on the screenshot:
 
 ![deploy](deploy.PNG)
 
