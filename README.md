@@ -195,7 +195,7 @@ The following requirements that have been implemented in this project are:
 * The user must be able to add reviews 
 * The user must be able to view reviews
 
-Here is an updated version of my use case diagram below, whcich shows the requirements of this project that have been implemented. 
+Here is an updated version of my use case diagram below, which shows the requirements of this project that have been implemented. 
 
 ![UPDATEerd](updateusecase.PNG)
 
@@ -208,7 +208,7 @@ Here is an updated version of my ERD after the implementation. The ERD diagram b
 
 ![UPDATEerd](updateERD.PNG)
 
-Below is the Chen style version of the conceptual ERD diagram:
+Here is an updated version of the Chen's conceptual ERD diagram:
 
 ![updatechen](ChenLogicalcopy.png)
 
